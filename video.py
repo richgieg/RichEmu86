@@ -3,7 +3,7 @@ import graphics
 
 class VideoController():
 
-    def __init__(self):
+    def power_on(self):
         self.__create_terminal_window()
 
     def __create_terminal_window(self):
