@@ -5,9 +5,9 @@ class VideoController():
 
     def power_on(self):
         print("VideoController.power_on()")
-        self.__create_terminal_window()
+        self._create_terminal_window()
 
-    def __create_terminal_window(self):
+    def _create_terminal_window(self):
         win = graphics.GraphWin("RichEmu86", 890, 408)
         win.setBackground("black")
         s = "RichEmu86 " * 8
