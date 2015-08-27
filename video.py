@@ -1,15 +1,15 @@
 import graphics
 
 
-class Terminal():
+class VideoController():
 
     def __init__(self):
-        self.create_terminal_window()
+        self._create_terminal_window()
 
-    def create_terminal_window(self):
-        win = graphics.GraphWin("Testing", 890, 408)
+    def _create_terminal_window(self):
+        win = graphics.GraphWin("RichEmu86", 890, 408)
         win.setBackground("black")
-        s = "0123456789" * 8
+        s = "RichEmu86 " * 8
         i = 0
         x = 446
         y = 12

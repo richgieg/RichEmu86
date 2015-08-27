@@ -1,3 +1,3 @@
-import terminal
+import video
 
-t = terminal.Terminal()
+video_controller = video.VideoController()
