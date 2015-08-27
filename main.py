@@ -1,3 +1,3 @@
-import video
+import system
 
-video_controller = video.VideoController()
+sys = system.System()
