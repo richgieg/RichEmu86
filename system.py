@@ -9,5 +9,6 @@ class System():
         self.__video_controller = video.VideoController()
 
     def power_on(self):
+        print("System.power_on()")
         self.__memory_controller.power_on()
         self.__video_controller.power_on()
