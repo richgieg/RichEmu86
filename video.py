@@ -4,6 +4,7 @@ import graphics
 class VideoController():
 
     def power_on(self):
+        print("VideoController.power_on()")
         self.__create_terminal_window()
 
     def __create_terminal_window(self):
