@@ -4,9 +4,9 @@ import graphics
 class VideoController():
 
     def __init__(self):
-        self._create_terminal_window()
+        self.__create_terminal_window()
 
-    def _create_terminal_window(self):
+    def __create_terminal_window(self):
         win = graphics.GraphWin("RichEmu86", 890, 408)
         win.setBackground("black")
         s = "RichEmu86 " * 8
