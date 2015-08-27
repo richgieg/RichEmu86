@@ -2,12 +2,15 @@ import graphics
 
 
 class VideoController():
-
+    """Represents a computer system's video controller."""
+    
     def power_on(self):
+        """Powers on this video controller."""
         print("VideoController.power_on()")
         self._create_terminal_window()
 
     def _create_terminal_window(self):
+        # Creates the terminal window using John Zelle's graphics module.
         win = graphics.GraphWin("RichEmu86", 890, 408)
         win.setBackground("black")
         s = "RichEmu86 " * 8
